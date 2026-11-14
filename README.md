@@ -5,9 +5,10 @@ coding agents.
 
 The joke:
 
-> My coding agent reviewed its own code, approved it, merged it — then
-> opened a ticket blaming me for the bug it shipped.
+> My coding agent gave itself a performance review: 5 stars, 'exceeds
+> expectations' — then put me on a performance improvement plan for
+> asking too many questions.
 
 `main.py` writes the joke to `$MAKEFUN_OUTPUT_DIR/entry.txt` (or
 `/output/entry.txt`). Deterministic: repeated runs write identical bytes.
-The joke is 118 characters, within the 280-character limit.
+The joke is 165 characters, within the 280-character limit.
