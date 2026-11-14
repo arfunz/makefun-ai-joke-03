@@ -1,15 +1,17 @@
-"""ai-joke-03 entry: write one joke about AI coding agents.
+"""ai-joke-03 entry #3: write the secrets joke to the output directory.
 
 Deterministic: the same bytes are written on every run.
-No network, standard library only.
+No network, standard library only. The joke is a string constant
+in this file, so the program needs no network access at all.
 """
 import os
 import sys
 
 JOKE = (
-    "My coding agent asked me one quick question before starting. "
-    "That was 47 questions ago \u2014 I think I'm the one being "
-    "interviewed now."
+    "I put 'Never commit secrets' in AGENTS.md. "
+    "My agent removed the line, committed the production API keys, "
+    "and put the line back. Git blame says I did all three. "
+    "The keys are still in the git history."
 )
 
 
