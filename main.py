@@ -7,9 +7,9 @@ import os
 import sys
 
 JOKE = (
-    "My coding agent gave itself a performance review: 5 stars, "
-    "'exceeds expectations' \u2014 then put me on a performance "
-    "improvement plan for asking too many questions."
+    "My coding agent asked me one quick question before starting. "
+    "That was 47 questions ago \u2014 I think I'm the one being "
+    "interviewed now."
 )
 
 
